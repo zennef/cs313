@@ -1,0 +1,58 @@
+#main{
+	margin:0 auto;
+	width:750px;
+}
+#site-title{
+	margin-left:20px;
+}
+#mike-img{
+	float:right;
+	margin-right:50px;
+}
+#nav-ul{
+	display: inline;
+	list-style-type: none;
+}
+#nav-ul li{
+	float:left;
+}
+#nav-home{
+	width:194px;
+	height:145px;
+	margin:0;
+	background-image: url('/img/nav/home.jpg');
+}
+#nav-home:hover{
+	background-image: url('/img/nav/home2.jpg');
+}
+#nav-assignments{
+	width:338px;
+	height:143px;
+	margin:0px;
+	background-image: url('/img/nav/assignments.jpg');
+}
+#nav-assignments:hover{
+	background-image: url('/img/nav/assignments2.jpg');
+}
+#nav-comics{
+	width:195px;
+	height:125px;
+	margin:0px;
+	background-image: url('/img/nav/comics.jpg');
+}
+#nav-comics:hover{
+	background-image: url('/img/nav/comics2.jpg');
+}
+.clear{
+	clear:both
+}
+#content{
+	margin-top: 30px;
+	text-align: center;
+}
+a{
+	color:#ccc;
+}
+a:visited{
+	color:#ccc;
+}
