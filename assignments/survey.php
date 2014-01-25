@@ -1,9 +1,12 @@
 <?php
-if ($_COOKIE["vote"]=="1"){
-  header("Location: survey_results.php");
-} else {
-	setcookie("vote", "0", time()+20);
-}
+	session_start();
+	if ($_SESSION["voted"]==TRUE)
+	  header("Location: survey_results.php");
+	if ($_COOKIE["vote"]=="1"){
+	  header("Location: survey_results.php");
+	} else {
+		setcookie("vote", "0", time()+60);
+	}
 ?>
 <!DOCTYPE html>
 <html>
