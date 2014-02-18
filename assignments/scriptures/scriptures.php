@@ -21,3 +21,5 @@ while($row = mysqli_fetch_array($result))
 ?>
 </body>
 </html>
+
+<!--GRANT ALL PRIVILEGES ON scriptures.* To 'guest'@'localhost' IDENTIFIED BY 'Pa$$w0rd';-->
